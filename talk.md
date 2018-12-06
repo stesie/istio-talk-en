@@ -353,6 +353,15 @@ http://localhost:8088/force/forcegraph.html
 
 <!--v-->
 
+## authentication
+
+* configure istio to require authentication on certain services
+* ... validates JWT tokens for your app
+* default rules can be applied to namespace
+* ... and later be overriden per service
+
+<!--v-->
+
 ## more integrations
 
 * Prometheus
