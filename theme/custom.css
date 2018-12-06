@@ -7,6 +7,10 @@
   max-height: 90vh;
 }
 
+.reveal pre code {
+  max-height: 90vh;
+}
+
 .reveal h1, .reveal h2, .reveal h3 {
   text-transform: inherit;
 }
