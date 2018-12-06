@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "reveal-md talk.md --theme custom --highlight-theme solarized-light",
-    "export": "rm -rf _static && reveal-md talk.md --theme custom --highlight-theme solarized-light --static _static/ && cp -R images theme _static/",
+    "start": "reveal-md talk.md --theme custom.css --highlight-theme solarized-light",
+    "export": "rm -rf _static/* && reveal-md talk.md --theme custom.css --highlight-theme solarized-light --static _static/ && cp -R _assets/* _static/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stefan Siegl <stesie@brokenpipe.de>",
   "license": "MIT",
   "dependencies": {
-    "reveal-md": "^0.1.2"
+    "reveal-md": "^2.4.0"
   }
 }
