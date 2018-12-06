@@ -53,6 +53,11 @@ all integrating over http ...
 * how to deploy a canary release?
 * how to avoid cascading effects in overload situations?
 * how to instrument external services?
+* how to test fault scenarios?
+
+<!--v-->
+
+... without modifying the app itself!?
 
 <!--v-->
 
@@ -60,6 +65,7 @@ all integrating over http ...
 
 * AWS & Azure both provide proprietary solutions  
   ⇨ vendor lock-in
+* Free Software (Apache 2.0 license)
 * Istio supported by Google
 * ... and provided on GKE since recently
 
