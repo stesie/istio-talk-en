@@ -339,5 +339,8 @@ Stefan Siegl (@stesie23, <rolf@mayflower.de>)
 ```
 $ git clone https://git.mayflower.de/stefan.siegl/istio-workshop.git
 $ cd istio-workshop; view README.md
-
 ```
+
+try stuff | break things | ask questions
+
+... eat pizza :)
