@@ -61,13 +61,24 @@ all integrating over http ...
 
 <!--v-->
 
-# Why Istio?
+## Why Istio?
 
 * AWS & Azure both provide proprietary solutions  
   ⇨ vendor lock-in
 * Free Software (Apache 2.0 license)
 * Istio supported by Google
 * ... and provided on GKE since recently
+
+<!--v-->
+
+## Istio Basics
+
+* set of Kubernetes CRDs (+ Controllers)
+* lot's of YAML resource definitions \o/
+* Control Plane
+  * pilot (config mgmt)
+  * mixer (auth & stats)
+  * citadel (certs)
 
 <!--s-->
 
