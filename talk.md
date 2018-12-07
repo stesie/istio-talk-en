@@ -284,6 +284,12 @@ http://localhost:8088/force/forcegraph.html
 * Kiali - interactive, just-in-time traffic monitor
 * Jaeger - open-tracing compatible tracing
   * envoy proxies automatically collect tracing data
+  * app must (at least) forward X-B3-xxx headers
+  * (optional) further instrumentation within app
+
+<!--v-->
+
+![Screenshot of Jaeger trace](images/jaeger.png)
 
 <!--s-->
 
