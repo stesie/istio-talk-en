@@ -85,68 +85,6 @@ all integrating over http ...
 
 <!--v-->
 
-```yaml
-kind: Deployment
-metadata:
-  name: somesvc-v1
-spec:
-  selector:
-    matchLabels:
-      app: somesvc
-      version: v1
-  template:
-    ...
-    spec:
-      containers:
-      - name: somesvc
-        ...
-        env:
-        - name: EXTRA_MESSAGE
-          value: das hier ist Version 1 :-)
-```
-
-<!--v-->
-
-```yaml
-kind: Deployment
-metadata:
-  name: somesvc-v2
-spec:
-  selector:
-    matchLabels:
-      app: somesvc
-      version: v2
-  template:
-    ...
-    spec:
-      containers:
-      - name: somesvc
-        ...
-        env:
-        - name: EXTRA_MESSAGE
-          value: und das hier ist v2!
-```
-
-<!--v-->
-
-```yaml
-kind: Service
-metadata:
-  name: somesvc
-  labels:
-    app: somesvc
-spec:
-  type: NodePort
-  ports:
-  - port: 80
-    targetPort: 3000
-    name: http
-  selector:
-    app: somesvc
-```
-
-<!--v-->
-
 DEMO: curl to Service's NodePort
 
 <!--v-->
