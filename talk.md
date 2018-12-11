@@ -68,6 +68,13 @@ all integrating over http ...
 * Free Software (Apache 2.0 license)
 * Istio supported by Google
 * ... and provided on GKE since recently
+* Google's Knative on top of Istio
+
+<!--v-->
+
+> upwards of 90 percent of Kubernetes users will be running Istio within the next two years
+
+Urs Hölzle, Senior VP Technical Infrastructure at Google
 
 <!--v-->
 
