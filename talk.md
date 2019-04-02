@@ -4,7 +4,7 @@ separator: <!--s-->
 verticalSeparator: <!--v-->
 ---
 
-# Stairway to <br> Service Mesh
+# Hallo Istio
 
 Stefan Siegl (@stesie23, <rolf@mayflower.de>)
 
@@ -271,18 +271,11 @@ spec:
 * simplest approach: servicegraph
 * servicegraph must be enabled
 * not exposed by default, must port-forward
+* deprecated with Istio 1.1
 
 <!--v-->
 
 ![Rendered servicegraph plot](images/istio-servicegraph.png)
-
-<!--v-->
-
-```
-$ kubectl port-forward -n istio-system service/servicegraph 8088
-```
-
-http://localhost:8088/force/forcegraph.html
 
 <!--v-->
 
@@ -329,8 +322,6 @@ http://localhost:8088/force/forcegraph.html
 * Prometheus
 * Grafana
 
-
-
 <!--s-->
 
 # That's it!
@@ -338,16 +329,3 @@ http://localhost:8088/force/forcegraph.html
 ## Questions?
 
 Stefan Siegl (@stesie23, <rolf@mayflower.de>)
-
-<!--s-->
-
-# Workshop
-
-```
-$ git clone https://git.mayflower.de/stefan.siegl/istio-workshop.git
-$ cd istio-workshop; view README.md
-```
-
-try stuff | break things | ask questions
-
-... eat pizza :)
